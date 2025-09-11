@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký</title>
+    <link rel="stylesheet" href="../Btvn4-html/style.css">
+</head>
+<body>
+    <form class="register-form" action="#" method="post">
+        <h2>Form Đăng Ký</h2>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" placeholder="Nhập Họ Tên" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Nhập email" required>
+
+        <labe>Giới Tính</labe>
+        <input type="radio" id="Male" name="gender" value="Male"><label for="Male">Nam</label>
+        <input type="radio" id="Female" name="gender" value="Female"><label for="Female">Nữ</label>
+        
+        <label>Sở Thích</label>
+        <input type="checkbox" id="Thể Thao" name="hobby" value="Thể Thao"><label for="Thể Thao">Thể Thao</label>
+        <input type="checkbox" id="Du Lịch" name="hobby" value="Du Lịch"><label for="Du Lịch">Du Lịch</label>
+        <input type="checkbox" id="Âm Nhạc" name="hobby" value="Âm Nhạc"><label for="Âm Nhạc">Âm Nhạc</label>
+        <input type="checkbox" id="Xem Phim" name="hobby" value="Xem Phim"><label for="Xem Phim">Xem Phim</label>
+
+        <labe>Quốc Gia</labe>
+        <select id="country" name="country" required>
+        <option value="">Chọn Quốc Gia</option>
+        <option value="Việt Nam">Việt Nam</option>
+        <option value="Mỹ">Mỹ</option>
+        <option value="Anh">Anh</option>
+
+        <input type="submit" value="Đăng Ký">    
+</body>
+</html>
