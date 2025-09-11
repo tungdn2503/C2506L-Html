@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    font-family: arial,sans-serif ;
+    background:#f8fafc;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f8f8f8;
+}
+.logo img {
+    height: 40px;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.center button {
+    padding: 6px 12px;
+}
+.right button{
+    padding: 6px 12px;
+}
