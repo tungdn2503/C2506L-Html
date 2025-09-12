@@ -1,0 +1,33 @@
+.register-form {
+    display: grid;
+    grid-template-columns: 400px;
+    gap: 8px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.register-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.register-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
