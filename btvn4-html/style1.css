@@ -1,25 +1,25 @@
-.contact-form {
+.contact {
     display: grid;
-    grid-template-columns: auto;
-    width: 400px;
+    gap: 15px;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
-    border: 2px solid #ccc;
-    background-color: #f9f9f9;
-}
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    padding: 10px;
-    margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 10px; 
 }
-.contact-form input[type="submit"] {
+.contact input, .contact textarea {
     padding: 10px;
-    background-color: #4CAF50;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact button {
+    padding: 10px 20px;
+    background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
+
