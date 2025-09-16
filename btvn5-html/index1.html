@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../btvn5-html/style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Danh Sách Khóa Học</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên Khóa Học</th>
+                    <th>Thời Gian</th>
+                    <th>Học Phí</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Môn A</td>
+                    <td>2 tháng</td>
+                    <td>2.000.000đ</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Môn B</td>
+                    <td>1.5 tháng</td>
+                    <td>1.500.000đ</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Môn C</td>
+                    <td>3 tháng</td>
+                    <td>3.000.000đ</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Form Đăng Ký</h2>
+        <form class="register-form">
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name" placeholder="Nhập họ tên" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Nhập email" required>
+
+            <label for="course">Chọn Khóa Học:</label>
+            <select id="course" name="course">
+                <option value="c">Môn A</option>
+                <option value="html-css">Môn B</option>
+                <option value="js">Môn C</option>
+            </select>
+
+            <input type="submit" value="Đăng Ký">
+        </form>
+    </div>
+</body>
+</html>
